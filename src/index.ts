@@ -3,7 +3,7 @@
 
 (async () => {
   ChatLib.chat('Demo loaded. Waiting 5 seconds');
-  await new Promise(r => setTimeout(r as () => {}, 5e3));
+  await new Promise<void>(r => setTimeout(r, 5e3));
   ChatLib.chat('Has it been 5 seconds?');
 })();
 
