@@ -7,11 +7,18 @@
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": false,
+    "allowJs": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitUseStrict": true,
     "alwaysStrict": false,
     "declaration": true
-  }
+  },
+  "exclude": [
+    "./*.js"
+  ],
+  "include": [
+    "./src/*"
+  ]
 }
