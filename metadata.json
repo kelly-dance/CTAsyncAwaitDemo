@@ -1,0 +1,6 @@
+{
+  "$schema": "../CTAutoComplete/schema.json",
+  "name": "AsyncAwaitTest",
+  "version": "1.0.0",
+  "entry": "index.js"
+}

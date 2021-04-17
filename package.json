@@ -1,0 +1,11 @@
+{
+  "name": "ct-command-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
